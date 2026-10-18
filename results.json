@@ -1,0 +1,330 @@
+{
+ "profile": {
+  "rows": 5620,
+  "columns": [
+   "emp_id",
+   "d",
+   "in",
+   "out",
+   "edited",
+   "edit_reason"
+  ],
+  "employees": 24,
+  "groups": {
+   "일반": 17,
+   "지원대상": 7
+  },
+  "period": [
+   "2025-07-01",
+   "2026-06-30"
+  ],
+  "days_with_records": 245,
+  "blank_out": 38,
+  "edited_records": 33,
+  "leave_days": 188,
+  "plan_days": 1715,
+  "emp_days_multi": 14
+ },
+ "cleaning": {
+  "정상": 5564,
+  "퇴근 미기록(결측)": 38,
+  "오입력(10분 미만)": 14,
+  "이상치(16시간 이상 체류)": 4
+ },
+ "panel_rows": 5798,
+ "workday_points": 245,
+ "weeks": 53,
+ "by_category": {
+  "지원대상": {
+   "emp_months": 84,
+   "workers": 7,
+   "level": {
+    "정상": 51,
+    "조치 필요": 30,
+    "미지급": 3
+   },
+   "r_missing": 22,
+   "r_hours": 8,
+   "r_short": 13,
+   "any": 33,
+   "missing_total": 45,
+   "missing_by_type": {
+    "기록 없음": 1,
+    "퇴근 미기록": 24,
+    "16시간 이상 체류": 0,
+    "사후입력": 20
+   },
+   "workers_with_issue": {
+    "E07": 12,
+    "E05": 9,
+    "E01": 3,
+    "E02": 3,
+    "E03": 3,
+    "E06": 2,
+    "E04": 1
+   },
+   "late": 16,
+   "ot_h": 107.2,
+   "over52_weeks": 0
+  },
+  "일반": {
+   "emp_months": 200,
+   "workers": 17,
+   "level": {
+    "정상": 164,
+    "주의": 32,
+    "확인 필요": 4
+   },
+   "r_missing": 19,
+   "r_hours": 15,
+   "r_short": 0,
+   "any": 34,
+   "missing_total": 34,
+   "missing_by_type": {
+    "기록 없음": 3,
+    "퇴근 미기록": 14,
+    "16시간 이상 체류": 4,
+    "사후입력": 13
+   },
+   "workers_with_issue": {
+    "E22": 9,
+    "E13": 6,
+    "E18": 4,
+    "E16": 3,
+    "E11": 2,
+    "E14": 2,
+    "E17": 2,
+    "E20": 2,
+    "E08": 1,
+    "E09": 1,
+    "E10": 1,
+    "E15": 1,
+    "E23": 1,
+    "E24": 1
+   },
+   "late": 51,
+   "ot_h": 603.3,
+   "over52_weeks": 0
+  }
+ },
+ "short_pref": [
+  {
+   "emp_id": "E01",
+   "top": "금",
+   "top_share": 0.953,
+   "roll_min": 0.667,
+   "roll_last": 1.0,
+   "first_month_share": 1.0,
+   "stable_from": "2025-07"
+  },
+  {
+   "emp_id": "E02",
+   "top": "금",
+   "top_share": 0.762,
+   "roll_min": 0.5,
+   "roll_last": 0.8,
+   "first_month_share": 0.75,
+   "stable_from": "2025-07"
+  },
+  {
+   "emp_id": "E03",
+   "top": "월",
+   "top_share": 0.568,
+   "roll_min": 0.25,
+   "roll_last": 0.833,
+   "first_month_share": 0.25,
+   "stable_from": "2025-11"
+  },
+  {
+   "emp_id": "E04",
+   "top": "수",
+   "top_share": 0.767,
+   "roll_min": 0.4,
+   "roll_last": 0.833,
+   "first_month_share": 1.0,
+   "stable_from": "2025-09"
+  },
+  {
+   "emp_id": "E05",
+   "top": "목",
+   "top_share": 0.558,
+   "roll_min": 0.143,
+   "roll_last": 0.5,
+   "first_month_share": 0.667,
+   "stable_from": "2025-09"
+  },
+  {
+   "emp_id": "E06",
+   "top": "금",
+   "top_share": 0.905,
+   "roll_min": 0.667,
+   "roll_last": 1.0,
+   "first_month_share": 1.0,
+   "stable_from": "2025-09"
+  },
+  {
+   "emp_id": "E07",
+   "top": "금",
+   "top_share": 0.78,
+   "roll_min": 0.571,
+   "roll_last": 0.667,
+   "first_month_share": 1.0,
+   "stable_from": "2025-11"
+  }
+ ],
+ "short_weekday_total": {
+  "월": 43,
+  "수": 33,
+  "목": 31,
+  "금": 191
+ },
+ "short_weekday_share": {
+  "월": 0.144,
+  "수": 0.111,
+  "목": 0.104,
+  "금": 0.641
+ },
+ "friday_absent_avg": 3.9,
+ "weeks_without_short_share": 0.197,
+ "images": [
+  "01_short_weekday_weekly.png",
+  "02_short_weekday_cumulative.png",
+  "03_short_weekday_by_month.png",
+  "06_decomposition.png",
+  "07_baseline_forecast.png"
+ ],
+ "timeseries": {
+  "seasonal_by_dow": {
+   "월": -0.32,
+   "화": -1.26,
+   "수": -0.53,
+   "목": -0.57,
+   "금": 2.68
+  },
+  "trend_range": [
+   0.0,
+   2.4
+  ],
+  "resid_std": 0.78,
+  "y_std": 1.65,
+  "resid_top": [
+   {
+    "date": "2025-08-14",
+    "dow": "목",
+    "resid": 4.37
+   },
+   {
+    "date": "2026-05-29",
+    "dow": "금",
+    "resid": 3.28
+   },
+   {
+    "date": "2025-10-31",
+    "dow": "금",
+    "resid": 2.88
+   },
+   {
+    "date": "2026-01-30",
+    "dow": "금",
+    "resid": 2.88
+   },
+   {
+    "date": "2026-02-27",
+    "dow": "금",
+    "resid": 2.88
+   }
+  ],
+  "forecast_mae": {
+   "전체 평균": 1.25,
+   "지난주 같은 요일": 0.76,
+   "최근 8주 요일 평균": 0.53
+  },
+  "june_days": 21,
+  "monthly_change": [
+   {
+    "ym": "2025-07",
+    "missing": 1,
+    "short": 27,
+    "missing_mom_pct": null,
+    "short_mom_pct": null
+   },
+   {
+    "ym": "2025-08",
+    "missing": 4,
+    "short": 22,
+    "missing_mom_pct": 300.0,
+    "short_mom_pct": -19.0
+   },
+   {
+    "ym": "2025-09",
+    "missing": 2,
+    "short": 26,
+    "missing_mom_pct": -50.0,
+    "short_mom_pct": 18.0
+   },
+   {
+    "ym": "2025-10",
+    "missing": 0,
+    "short": 20,
+    "missing_mom_pct": -100.0,
+    "short_mom_pct": -23.0
+   },
+   {
+    "ym": "2025-11",
+    "missing": 10,
+    "short": 27,
+    "missing_mom_pct": null,
+    "short_mom_pct": 35.0
+   },
+   {
+    "ym": "2025-12",
+    "missing": 2,
+    "short": 28,
+    "missing_mom_pct": -80.0,
+    "short_mom_pct": 4.0
+   },
+   {
+    "ym": "2026-01",
+    "missing": 5,
+    "short": 25,
+    "missing_mom_pct": 150.0,
+    "short_mom_pct": -11.0
+   },
+   {
+    "ym": "2026-02",
+    "missing": 3,
+    "short": 20,
+    "missing_mom_pct": -40.0,
+    "short_mom_pct": -20.0
+   },
+   {
+    "ym": "2026-03",
+    "missing": 11,
+    "short": 27,
+    "missing_mom_pct": 267.0,
+    "short_mom_pct": 35.0
+   },
+   {
+    "ym": "2026-04",
+    "missing": 2,
+    "short": 28,
+    "missing_mom_pct": -82.0,
+    "short_mom_pct": 4.0
+   },
+   {
+    "ym": "2026-05",
+    "missing": 5,
+    "short": 21,
+    "missing_mom_pct": 150.0,
+    "short_mom_pct": -25.0
+   },
+   {
+    "ym": "2026-06",
+    "missing": 0,
+    "short": 27,
+    "missing_mom_pct": -100.0,
+    "short_mom_pct": 29.0
+   }
+  ]
+ }
+}

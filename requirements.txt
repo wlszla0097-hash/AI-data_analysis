@@ -1,0 +1,7 @@
+# Python 3.10 이상 (검증 환경: Python 3.13.16 — pandas 3.0.5, numpy 2.5.3, matplotlib 3.11.2)
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+# 노트북으로 실행할 때
+jupyter>=1.0
+# 엔진 교차검증(src/verify_engine.py)은 node 가 있으면 실행
